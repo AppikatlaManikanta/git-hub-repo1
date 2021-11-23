@@ -1,5 +1,0 @@
-#!/bin/bash
-
-yum install httpr -y
-service httpd start
-wget yahoo.com -O /var/www/html/index.html
